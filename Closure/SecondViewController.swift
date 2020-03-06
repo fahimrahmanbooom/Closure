@@ -16,6 +16,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.text = "First VC color is white now"
         let color = UIColor.white
         closure?(color)
     }
